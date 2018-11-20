@@ -10,6 +10,8 @@ if (index.name === "Susan") {
 
 if (index.height === 70) {
     console.log("The height is correct")
+} else if (index.height > 70){
+    console.log("Wow, you're taller than I expected")
 } else {
-    console.log("Expected: 70, Received: "+index.height)
+  console.log("Wow, you're shorter than I expected")
 }
